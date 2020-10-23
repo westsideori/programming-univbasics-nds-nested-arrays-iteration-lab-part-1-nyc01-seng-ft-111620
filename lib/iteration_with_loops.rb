@@ -12,5 +12,11 @@ def find_even_values(src)
     end
     row_index += 1
   end
-  p results_array.
+  count = 0
+  while count < results_array.length do
+    if results_array[count] % 2 == 0
+      p results_array[count]
+    end
+    count += 1
+  end
 end
